@@ -7,20 +7,32 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { InfoPageComponent } from './shared/components/info-page/info-page.component';
 import { ProductsPageComponent } from './shared/components/products-page/products-page.component';
 import { CreateProductComponent } from './shared/components/create-product/create-product.component';
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CategoryPipe } from './shared/pipes/category.pipe';
+import { FilterByCategoryPipe } from './shared/pipes/filter-by-category.pipe';
+import { FilterByAvailablePipe } from './shared/pipes/filter-by-available.pipe';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     InfoPageComponent,
     ProductsPageComponent,
-    CreateProductComponent
+    CreateProductComponent,
+    CategoryPipe,
+    FilterByCategoryPipe,
+    FilterByAvailablePipe,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "id": 5,
+      "title": "Диван",
+      "articulation": "dasdas12",
+      "price": "30000",
+      "madedBy": "Россия",
+      "category": 0,
+      "weight": "5",
+      "count": "12"
+    },
+    {
+      "id": 6,
+      "title": "Шкаф",
+      "articulation": "dasdasd",
+      "count": "0",
+      "weight": "10",
+      "price": "123",
+      "madedBy": "Германия",
+      "category": 0
+    },
+    {
+      "id": 7,
+      "title": "Телевизор",
+      "articulation": "fff213",
+      "count": "10",
+      "weight": "3",
+      "price": "20000",
+      "madedBy": "Япония",
+      "category": 1
+    },
+    {
+      "id": 8,
+      "title": "Мастер и Маргарита",
+      "articulation": "asd123123",
+      "count": "300",
+      "weight": "0.5",
+      "price": "600",
+      "madedBy": "Россия",
+      "category": 2
+    }
+  ]
+}

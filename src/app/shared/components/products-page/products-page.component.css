@@ -1,0 +1,29 @@
+.btn--change-count {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 30px;
+  height: 30px;
+}
+.btn--sort {
+  width: 20px !important;
+  height: 20px !important;
+  padding: 0 !important;
+}
+.icon--sort {
+  font-size: 14px !important;
+}
+.d-flex {
+  width: 120px !important;
+  justify-content: space-between;
+}
+tr td:nth-child(8),
+tr td:last-child {
+  vertical-align: bottom !important;
+}
+.custom-control-label::before,
+.custom-control-label::after {
+  top: 0.1rem;
+  width: 1.25rem;
+  height: 1.25rem;
+}
