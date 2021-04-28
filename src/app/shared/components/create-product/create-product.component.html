@@ -2,7 +2,7 @@
   <span class="material-icons"> add </span>
 </button>
 <ng-template #mymodal let-modal>
-  <div class="modal-header">
+  <div class="modal-header bg-dark">
     <h2 class="modal-title" id="modal-basic-title">Добавить товар</h2>
     <button
       type="button"
@@ -13,7 +13,7 @@
       <span aria-hidden="true">×</span>
     </button>
   </div>
-  <div class="modal-body">
+  <div class="modal-body bg-dark">
     <form [formGroup]="addFormGroup">
       <div class="mb-2">
         <label for="title" class="form-label">Название</label>
@@ -85,7 +85,7 @@
       </div>
     </form>
   </div>
-  <div class="modal-footer">
+  <div class="modal-footer bg-dark">
     <button
       type="button"
       [disabled]="addFormGroup.invalid"

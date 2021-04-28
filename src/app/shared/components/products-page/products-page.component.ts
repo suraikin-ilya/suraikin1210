@@ -13,7 +13,7 @@ export class ProductsPageComponent implements OnInit {
   products: IProduct[];
   title = 'Список товаров';
   public editFormGroup: FormGroup;
-  editId: number | null = 0;
+  editId: number | null = null;
   unSortedProducts: IProduct[] = [];
   type = ProductType;
   selectCategory = 5;
@@ -90,14 +90,14 @@ export class ProductsPageComponent implements OnInit {
       this.unSortedProducts = [...this.products];
 
     if (col === this.sort.col && dir === this.sort.dir) {
-      this.products = this.unSortedProducts;
+      this.products = [...this.unSortedProducts];
       this.sort = { col: '', dir: '' };
     } else {
       this.products.sort((a, b) => {
         return dir === 'desc' ? a[col] - b[col] : b[col] - a[col];
       });
+      this.sort = { col, dir };
     }
-    this.sort = { col, dir };
   }
   async onReduceCount(product: IProduct) {
     try {

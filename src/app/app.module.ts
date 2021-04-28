@@ -13,6 +13,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CategoryPipe } from './shared/pipes/category.pipe';
 import { FilterByCategoryPipe } from './shared/pipes/filter-by-category.pipe';
 import { FilterByAvailablePipe } from './shared/pipes/filter-by-available.pipe';
+import { WeightPipe } from './shared/pipes/weight.pipe';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,6 +24,7 @@ import { FilterByAvailablePipe } from './shared/pipes/filter-by-available.pipe';
     CategoryPipe,
     FilterByCategoryPipe,
     FilterByAvailablePipe,
+    WeightPipe,
   ],
   imports: [
     BrowserModule,

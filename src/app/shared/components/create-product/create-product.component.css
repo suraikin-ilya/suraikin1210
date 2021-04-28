@@ -14,3 +14,11 @@
   color: rgb(255, 80, 80);
   margin-left: 3px;
 }
+label,
+span,
+h2 {
+  color: #fff;
+}
+div {
+  border: 0;
+}

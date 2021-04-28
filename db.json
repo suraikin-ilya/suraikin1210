@@ -7,28 +7,28 @@
       "price": "30000",
       "madedBy": "Россия",
       "category": 0,
-      "weight": "5",
+      "weight": "4",
       "count": "12"
     },
     {
       "id": 6,
       "title": "Шкаф",
       "articulation": "dasdasd",
-      "count": "0",
-      "weight": "10",
       "price": "123",
       "madedBy": "Германия",
-      "category": 0
+      "category": 0,
+      "weight": "10",
+      "count": "0"
     },
     {
       "id": 7,
       "title": "Телевизор",
       "articulation": "fff213",
-      "count": "10",
-      "weight": "3",
       "price": "20000",
       "madedBy": "Япония",
-      "category": 1
+      "category": 1,
+      "weight": "3",
+      "count": "10"
     },
     {
       "id": 8,
@@ -39,6 +39,16 @@
       "price": "600",
       "madedBy": "Россия",
       "category": 2
+    },
+    {
+      "id": 9,
+      "title": "Айфон",
+      "articulation": "qweqw13213",
+      "count": "20",
+      "weight": "0.5",
+      "price": "30000",
+      "madedBy": "Индонезия",
+      "category": 3
     }
   ]
 }
